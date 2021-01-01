@@ -5,5 +5,21 @@
 
 # Solution:
 
-def compute_factors():
+def largest_prime_factor(num):
+    
+    prime_factor = 1
+    i = 2
 
+    while (i <= num/i):
+        if (num%i == 0):
+            prime_factor = i
+            num /= i
+        else:
+            i += 1
+
+        if (prime_factor < num):
+            prime_factor = num
+
+    return prime_factor
+
+print(largest_prime_factor(600851475143))
