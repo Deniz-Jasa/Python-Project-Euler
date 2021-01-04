@@ -1,4 +1,4 @@
-# Python-Project-Euler
+# Python-Project-Euler-Problem-Set
 
 My full solutions to the Project Euler Problem Set in Python 3. I began with some warm up exercise (problems 1-5), then worked on some harder problems lower down the list. Enjoy!
 
