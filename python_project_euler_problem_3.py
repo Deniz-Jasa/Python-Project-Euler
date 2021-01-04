@@ -11,6 +11,7 @@ def largest_prime_factor(num):
     i = 2
 
     while (i <= num/i):
+
         if (num%i == 0):
             prime_factor = i
             num /= i
